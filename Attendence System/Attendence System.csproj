@@ -65,6 +65,12 @@
     <Compile Include="forms\appAdmin\viewAll.Designer.cs">
       <DependentUpon>viewAll.cs</DependentUpon>
     </Compile>
+    <Compile Include="forms\teacher\addClassRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\teacher\addClassRoom.Designer.cs">
+      <DependentUpon>addClassRoom.cs</DependentUpon>
+    </Compile>
     <Compile Include="forms\teacher\addStudent.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +100,12 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\teacher\classReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\teacher\classReport.Designer.cs">
+      <DependentUpon>classReport.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\teacher\classRoom.cs">
       <SubType>Form</SubType>
@@ -130,6 +142,9 @@
     <EmbeddedResource Include="forms\teacerIncharge\teacherIncharge.resx">
       <DependentUpon>teacherIncharge.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="forms\teacher\addClassRoom.resx">
+      <DependentUpon>addClassRoom.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forms\teacher\addStudent.resx">
       <DependentUpon>addStudent.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +159,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\teacher\classReport.resx">
+      <DependentUpon>classReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\teacher\classRoom.resx">
       <DependentUpon>classRoom.cs</DependentUpon>

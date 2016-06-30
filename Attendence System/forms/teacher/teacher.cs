@@ -19,12 +19,25 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            var a = new manageClassRoom();
+            a.Show();
         }        
 
         private void button2_Click(object sender, EventArgs e)
         {
             var a = new classRoom();
+            a.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var a = new addClassRoom();
+            a.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            var a = new classReport();
             a.Show();
         }
     }

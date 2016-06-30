@@ -16,7 +16,25 @@ namespace WindowsFormsApplication1
             InitializeComponent();
         }
 
-        private void manageClassRoom_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var a = new addStudent();
+            a.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var a = new addStudent();
+            a.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            var a = new addClassRoom();
+            a.Show();
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

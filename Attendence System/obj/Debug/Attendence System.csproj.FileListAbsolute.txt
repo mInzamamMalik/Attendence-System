@@ -16,3 +16,6 @@ C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.addHOD.resources
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.viewAll.resources
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.classRoom.resources
+C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.manageClassRoom.resources
+C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.addClassRoom.resources
+C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.classReport.resources
