@@ -16,5 +16,23 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var addTeacherIncharge =  new addTeacherIncharge();
+            addTeacherIncharge.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var addHOD = new addHOD();
+            addHOD.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var viewAll = new viewAll();
+            viewAll.Show();
+        }
     }
 }

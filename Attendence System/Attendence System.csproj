@@ -53,6 +53,18 @@
     <Compile Include="addClass.Designer.cs">
       <DependentUpon>addClass.cs</DependentUpon>
     </Compile>
+    <Compile Include="forms\appAdmin\addHOD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\appAdmin\addHOD.Designer.cs">
+      <DependentUpon>addHOD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\appAdmin\viewAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\appAdmin\viewAll.Designer.cs">
+      <DependentUpon>viewAll.cs</DependentUpon>
+    </Compile>
     <Compile Include="forms\teacher\addStudent.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +95,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="forms\teacher\classRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\teacher\classRoom.Designer.cs">
+      <DependentUpon>classRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\teacher\manageClassRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\teacher\manageClassRoom.Designer.cs">
+      <DependentUpon>manageClassRoom.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="forms\teacher\teacher.cs">
@@ -97,6 +121,15 @@
     <Compile Include="forms\teacerIncharge\teacherIncharge.Designer.cs">
       <DependentUpon>teacherIncharge.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="forms\appAdmin\addHOD.resx">
+      <DependentUpon>addHOD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\appAdmin\viewAll.resx">
+      <DependentUpon>viewAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\teacerIncharge\teacherIncharge.resx">
+      <DependentUpon>teacherIncharge.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forms\teacher\addStudent.resx">
       <DependentUpon>addStudent.cs</DependentUpon>
     </EmbeddedResource>
@@ -111,6 +144,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\teacher\classRoom.resx">
+      <DependentUpon>classRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\teacher\manageClassRoom.resx">
+      <DependentUpon>manageClassRoom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
