@@ -53,6 +53,11 @@
     <Compile Include="addClass.Designer.cs">
       <DependentUpon>addClass.cs</DependentUpon>
     </Compile>
+    <Compile Include="AttendenceSystemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AttendenceSystemDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="forms\appAdmin\addHOD.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +69,12 @@
     </Compile>
     <Compile Include="forms\appAdmin\viewAll.Designer.cs">
       <DependentUpon>viewAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Login\login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Login\login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\teacher\addClassRoom.cs">
       <SubType>Form</SubType>
@@ -139,6 +150,9 @@
     <EmbeddedResource Include="forms\appAdmin\viewAll.resx">
       <DependentUpon>viewAll.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="forms\Login\login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forms\teacerIncharge\teacherIncharge.resx">
       <DependentUpon>teacherIncharge.cs</DependentUpon>
     </EmbeddedResource>
@@ -182,6 +196,17 @@
     <EmbeddedResource Include="forms\teacher\teacher.resx">
       <DependentUpon>teacher.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="AttendenceSystemDataSet.xsc">
+      <DependentUpon>AttendenceSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AttendenceSystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AttendenceSystemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AttendenceSystemDataSet.xss">
+      <DependentUpon>AttendenceSystemDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -201,7 +226,11 @@
   <ItemGroup>
     <None Include="Resources\loginimg.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="AttendenceSystem.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

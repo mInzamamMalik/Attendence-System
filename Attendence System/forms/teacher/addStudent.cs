@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb;
+
 
 namespace WindowsFormsApplication1
 {
@@ -15,6 +17,14 @@ namespace WindowsFormsApplication1
         public addStudent()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+         
+
+
         }
     }
 }
