@@ -40,5 +40,12 @@ namespace WindowsFormsApplication1
             var a = new classReport();
             a.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            login a = new login();
+            a.Show();
+            this.Close();
+        }
     }
 }

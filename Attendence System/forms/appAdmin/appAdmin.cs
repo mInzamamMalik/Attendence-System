@@ -34,5 +34,12 @@ namespace WindowsFormsApplication1
             var viewAll = new viewAll();
             viewAll.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            login a = new login();
+            a.Show();
+            this.Close();
+        }
     }
 }

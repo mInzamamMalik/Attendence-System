@@ -12,12 +12,6 @@ namespace WindowsFormsApplication1
 {
     public partial class login : Form
     {
-
-        private OleDbCommand oleDbCmd = new OleDbCommand();
-        String conStr = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\AttendenceSystem.mdb";
-        
-        
-        
         
         public login()
         {
@@ -27,7 +21,7 @@ namespace WindowsFormsApplication1
         private void button1_Click(object sender, EventArgs e)
         {
 
-            string queryString = "SELECT * FROM login";
+            string queryString = "SELECT * FROM login WHERE username = '" + textBox1.Text + "' AND password = '" + textBox2.Text + "'; ";
             try
             {
                 using (OleDbConnection connection = new OleDbConnection(conn.ConnectionString))
@@ -36,19 +30,40 @@ namespace WindowsFormsApplication1
                     connection.Open();
                     OleDbDataReader reader = command.ExecuteReader();
 
+                    if (!reader.HasRows)
+                    {
+                        MessageBox.Show("incorrect username or password",
+                                                                   "no user found");
+                    }
+
+
                     while (reader.Read())
                     {
-                        string companyCode = reader.GetValue(0).ToString();
-                        string agentId = reader.GetString(1);
-                        string firstName = reader.GetString(2);
-                        string lastName = reader.GetString(3);
-                        string nameSuffix = reader.GetString(4);
-                        string corporateName = reader.GetString(5);
-                        string entityType = reader.GetString(6);
-                        string obfSSN = reader.GetString(7);
-                        string obfFEIN = reader.GetString(8);
-                        string dummyIndicator = reader.GetString(9);
+                        string id = reader.GetValue(0).ToString();
+                        string username = reader.GetString(1);
+                        string password = reader.GetString(2);
+                        string designation = reader.GetString(3);
                         // Insert code to process data.
+
+                        if (designation == "admin")
+                        {
+                            appAdmin a = new appAdmin();
+                            a.Show();
+                            this.Hide();
+                        }
+                        else if (designation == "teacher")
+                        {
+                            teacher form = new teacher();
+                            form.Show();
+                            this.Hide();
+                        }
+                        else if (designation == "hod")
+                        {
+                            //hod form = new hod();
+                            //form.Show();
+                            //this.Close();
+                            MessageBox.Show("no hod found");
+                        }
                     }
                     reader.Close();
                 }
