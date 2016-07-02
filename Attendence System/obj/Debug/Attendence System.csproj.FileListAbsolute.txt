@@ -19,3 +19,26 @@ C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.manageClassRoom.resources
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.addClassRoom.resources
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.classReport.resources
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\bin\Debug\AttendenceSystem.mdb
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\obj\Debug\Attendence System.csprojResolveAssemblyReference.cache
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\obj\Debug\WindowsFormsApplication1.addHOD.resources
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\obj\Debug\WindowsFormsApplication1.viewAll.resources
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\obj\Debug\WindowsFormsApplication1.login.resources
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\obj\Debug\WindowsFormsApplication1.teacherIncharge.resources
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\obj\Debug\WindowsFormsApplication1.addClassRoom.resources
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\obj\Debug\WindowsFormsApplication1.addStudent.resources
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\obj\Debug\WindowsFormsApplication1.addTeacher.resources
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\obj\Debug\WindowsFormsApplication1.addTeacherIncharge.resources
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\obj\Debug\WindowsFormsApplication1.appAdmin.resources
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\obj\Debug\WindowsFormsApplication1.classReport.resources
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\obj\Debug\WindowsFormsApplication1.classRoom.resources
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\obj\Debug\WindowsFormsApplication1.manageClassRoom.resources
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\obj\Debug\WindowsFormsApplication1.teacher.resources
+C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\obj\Debug\Attendence System.csproj.GenerateResource.Cache

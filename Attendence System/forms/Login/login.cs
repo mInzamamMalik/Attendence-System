@@ -26,10 +26,37 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            OleDbConnection Conn = new OleDbConnection(conStr);
-            Conn.Open();
-            String strCmd = "Select * from Login where username= @username AND password = @password";
 
+            string queryString = "SELECT * FROM login";
+            try
+            {
+                using (OleDbConnection connection = new OleDbConnection(conn.ConnectionString))
+                {
+                    OleDbCommand command = new OleDbCommand(queryString, connection);
+                    connection.Open();
+                    OleDbDataReader reader = command.ExecuteReader();
+
+                    while (reader.Read())
+                    {
+                        string companyCode = reader.GetValue(0).ToString();
+                        string agentId = reader.GetString(1);
+                        string firstName = reader.GetString(2);
+                        string lastName = reader.GetString(3);
+                        string nameSuffix = reader.GetString(4);
+                        string corporateName = reader.GetString(5);
+                        string entityType = reader.GetString(6);
+                        string obfSSN = reader.GetString(7);
+                        string obfFEIN = reader.GetString(8);
+                        string dummyIndicator = reader.GetString(9);
+                        // Insert code to process data.
+                    }
+                    reader.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Failed to connect to data source");
+            }
         }
     }
 }
