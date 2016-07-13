@@ -60,8 +60,8 @@
             // 
             // conn
             // 
-            this.conn.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=\"C:\\Users\\malikasinger\\WebstormProje" +
-    "cts\\Attendence-System\\Attendence System\\AttendenceSystem.mdb\"";
+            this.conn.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=\"|DataDirectory|\\AttendenceSystem.md" +
+    "b\"";
             // 
             // login
             // 
