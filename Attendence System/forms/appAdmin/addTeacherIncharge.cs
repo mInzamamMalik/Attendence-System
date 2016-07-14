@@ -34,7 +34,6 @@ namespace WindowsFormsApplication1
             }
             else
             {
-
                 try {
 
                     //INSERT INTO login( [password], username, name, designation ) values('aaa', 'bbb', 'ccc', 'ddd');
@@ -51,11 +50,7 @@ namespace WindowsFormsApplication1
                     cmd1.ExecuteNonQuery();
                     MessageBox.Show(textBox1.Text + " is Added as Teacher");
                     conn.Close();
-                }
-                catch (DuplicateNameException error)
-                {
-                    MessageBox.Show(error.Message, "duplicate Error Occured");
-                }
+                }               
                 catch (Exception error) {
 
                     MessageBox.Show(error.Message,"An Error Occured");
