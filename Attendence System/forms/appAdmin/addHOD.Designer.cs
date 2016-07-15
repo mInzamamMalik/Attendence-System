@@ -62,7 +62,7 @@
             this.textBox3.Location = new System.Drawing.Point(72, 53);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(151, 20);
-            this.textBox3.TabIndex = 15;
+            this.textBox3.TabIndex = 1;
             // 
             // label4
             // 
@@ -78,7 +78,7 @@
             this.textBox4.Location = new System.Drawing.Point(72, 27);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(151, 20);
-            this.textBox4.TabIndex = 13;
+            this.textBox4.TabIndex = 0;
             // 
             // label2
             // 
@@ -94,14 +94,14 @@
             this.textBox2.Location = new System.Drawing.Point(72, 79);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(151, 20);
-            this.textBox2.TabIndex = 11;
+            this.textBox2.TabIndex = 2;
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(72, 105);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 10;
+            this.button1.TabIndex = 3;
             this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = true;
             // 

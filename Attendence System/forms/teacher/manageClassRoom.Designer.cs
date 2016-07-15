@@ -61,7 +61,7 @@
             this.button1.Location = new System.Drawing.Point(293, 31);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(92, 23);
-            this.button1.TabIndex = 7;
+            this.button1.TabIndex = 0;
             this.button1.Text = "Add Student";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -71,7 +71,7 @@
             this.button2.Location = new System.Drawing.Point(293, 60);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(92, 23);
-            this.button2.TabIndex = 8;
+            this.button2.TabIndex = 1;
             this.button2.Text = "Delete Student";
             this.button2.UseVisualStyleBackColor = true;
             // 
@@ -80,7 +80,7 @@
             this.button3.Location = new System.Drawing.Point(293, 89);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(92, 23);
-            this.button3.TabIndex = 9;
+            this.button3.TabIndex = 2;
             this.button3.Text = "Edit Student";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -124,7 +124,7 @@
             this.button4.Location = new System.Drawing.Point(271, 295);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(114, 23);
-            this.button4.TabIndex = 11;
+            this.button4.TabIndex = 3;
             this.button4.Text = "Delete This Class";
             this.button4.UseVisualStyleBackColor = true;
             // 
@@ -133,7 +133,7 @@
             this.button5.Location = new System.Drawing.Point(271, 324);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(114, 23);
-            this.button5.TabIndex = 12;
+            this.button5.TabIndex = 4;
             this.button5.Text = "Edit Class Detail";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
