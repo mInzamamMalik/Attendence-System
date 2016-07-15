@@ -88,17 +88,11 @@
     <Compile Include="forms\teacher\addStudent.Designer.cs">
       <DependentUpon>addStudent.cs</DependentUpon>
     </Compile>
-    <Compile Include="forms\teacerIncharge\addTeacher.cs">
+    <Compile Include="forms\appAdmin\addTeacher.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\teacerIncharge\addTeacher.Designer.cs">
+    <Compile Include="forms\appAdmin\addTeacher.Designer.cs">
       <DependentUpon>addTeacher.cs</DependentUpon>
-    </Compile>
-    <Compile Include="forms\appAdmin\addTeacherIncharge.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="forms\appAdmin\addTeacherIncharge.Designer.cs">
-      <DependentUpon>addTeacherIncharge.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\appAdmin\appAdmin.cs">
       <SubType>Form</SubType>
@@ -138,12 +132,6 @@
     <Compile Include="forms\teacher\teacher.Designer.cs">
       <DependentUpon>teacher.cs</DependentUpon>
     </Compile>
-    <Compile Include="forms\teacerIncharge\teacherIncharge.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="forms\teacerIncharge\teacherIncharge.Designer.cs">
-      <DependentUpon>teacherIncharge.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="forms\appAdmin\addHOD.resx">
       <DependentUpon>addHOD.cs</DependentUpon>
     </EmbeddedResource>
@@ -153,20 +141,14 @@
     <EmbeddedResource Include="forms\Login\login.resx">
       <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\teacerIncharge\teacherIncharge.resx">
-      <DependentUpon>teacherIncharge.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="forms\teacher\addClassRoom.resx">
       <DependentUpon>addClassRoom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\teacher\addStudent.resx">
       <DependentUpon>addStudent.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\teacerIncharge\addTeacher.resx">
+    <EmbeddedResource Include="forms\appAdmin\addTeacher.resx">
       <DependentUpon>addTeacher.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="forms\appAdmin\addTeacherIncharge.resx">
-      <DependentUpon>addTeacherIncharge.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\appAdmin\appAdmin.resx">
       <DependentUpon>appAdmin.cs</DependentUpon>

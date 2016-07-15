@@ -43,3 +43,5 @@ C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\obj\D
 C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\obj\Debug\Attendence System.csproj.GenerateResource.Cache
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\bin\Debug\AttendenceSystem.mdb
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.login.resources
+C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\Attendence System.csprojResolveAssemblyReference.cache
+C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.addTeacherx.resources

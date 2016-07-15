@@ -109,8 +109,8 @@
             // 
             // conn
             // 
-            this.conn.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=\"|DataDirectory|\\AttendenceSystem.md" +
-    "b\"";
+            this.conn.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=\"C:\\Users\\zee\\WebstormProjects\\Atten" +
+    "dence-System.git\\Attendence System\\AttendenceSystem.mdb\"";
             // 
             // addTeacherIncharge
             // 
