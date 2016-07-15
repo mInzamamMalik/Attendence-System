@@ -39,7 +39,7 @@ namespace WindowsFormsApplication1
                     //INSERT INTO login( [password], username, name, designation ) values('aaa', 'bbb', 'ccc', 'ddd');
 
 
-                    OleDbCommand cmd1 = new OleDbCommand("INSERT INTO login(username, [password], designation, name) values ('@username', '@password', '@designation', '@name')", conn);
+                    OleDbCommand cmd1 = new OleDbCommand("INSERT INTO login(Login_username, Login_password, Login_designation, Login_name) values (@username, @password, @designation, @name)", conn);
                     conn.Open();
                     
                     cmd1.Parameters.AddWithValue("@username", textBox2.Text);
