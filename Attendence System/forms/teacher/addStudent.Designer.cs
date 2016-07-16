@@ -38,6 +38,7 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.conn = new System.Data.OleDb.OleDbConnection();
             this.SuspendLayout();
             // 
             // button1
@@ -46,7 +47,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "4";
+            this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -124,6 +125,11 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "You are adding/Editing a Student in class";
             // 
+            // conn
+            // 
+            this.conn.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=\"C:\\Users\\zee\\WebstormProjects\\Atten" +
+    "dence-System.git\\Attendence System\\AttendenceSystem.mdb\"";
+            // 
             // addStudent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -158,5 +164,6 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Data.OleDb.OleDbConnection conn;
     }
 }

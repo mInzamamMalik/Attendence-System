@@ -21,7 +21,7 @@ namespace WindowsFormsApplication1
         private void button1_Click(object sender, EventArgs e)
         {
 
-            string queryString = "SELECT * FROM login WHERE Login_username = '" + textBox1.Text + "' AND Login_password = '" + textBox2.Text + "'; ";
+            string queryString = "SELECT * FROM users WHERE Login_username = '" + textBox1.Text + "' AND Login_password = '" + textBox2.Text + "'; ";
             try
             {
                 using (OleDbConnection connection = new OleDbConnection(conn.ConnectionString))

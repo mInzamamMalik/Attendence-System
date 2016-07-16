@@ -4,14 +4,12 @@ C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\bin\Debug\WindowsFormsApplication1.exe
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\bin\Debug\WindowsFormsApplication1.pdb
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.addStudent.resources
-C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.addTeacher.resources
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.addTeacherIncharge.resources
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.appAdmin.resources
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.Form1.resources
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.teacher.resources
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\Attendence System.csproj.GenerateResource.Cache
-C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.teacherIncharge.resources
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.addHOD.resources
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.viewAll.resources
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.classRoom.resources
@@ -44,4 +42,3 @@ C:\Users\malikasinger\WebstormProjects\Attendence-System\Attendence System\obj\D
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\bin\Debug\AttendenceSystem.mdb
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.login.resources
 C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\Attendence System.csprojResolveAssemblyReference.cache
-C:\Users\zee\WebstormProjects\Attendence-System.git\Attendence System\obj\Debug\WindowsFormsApplication1.addTeacherx.resources
