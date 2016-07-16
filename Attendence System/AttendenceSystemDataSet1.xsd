@@ -206,7 +206,34 @@
               <Mapping SourceColumn="teacher_id" DataSetColumn="teacher_id" />
               <Mapping SourceColumn="course_id" DataSetColumn="course_id" />
             </Mappings>
-            <Sources />
+            <Sources>
+              <DbSource ConnectionRef="AttendenceSystemConnectionString (Settings)" DbObjectName="students" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="FillBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT        ID, fathername, name, department, teacher_id, course_id
+FROM            students
+WHERE        (ID = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AttendenceSystemConnectionString (Settings)" DbObjectName="students" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy1" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="FillBy1" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="FillBy1">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID, fathername, name, department, teacher_id, course_id FROM students where ID =1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AttendenceSystemConnectionString (Settings)" DbObjectName="students" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy2" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="FillBy2" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy2" UserSourceName="FillBy2">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID, fathername, name, department, teacher_id, course_id FROM students where ID=1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="usersTableAdapter" GeneratorDataComponentClassName="usersTableAdapter" Name="users" UserDataComponentName="usersTableAdapter">
             <MainSource>
@@ -283,7 +310,7 @@
   <xs:element name="AttendenceSystemDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="AttendenceSystemDataSet1" msprop:Generator_UserDSName="AttendenceSystemDataSet1">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="Attendence" msprop:Generator_TableClassName="AttendenceDataTable" msprop:Generator_TableVarName="tableAttendence" msprop:Generator_TablePropName="Attendence" msprop:Generator_RowDeletingName="AttendenceRowDeleting" msprop:Generator_RowChangingName="AttendenceRowChanging" msprop:Generator_RowEvHandlerName="AttendenceRowChangeEventHandler" msprop:Generator_RowDeletedName="AttendenceRowDeleted" msprop:Generator_UserTableName="Attendence" msprop:Generator_RowChangedName="AttendenceRowChanged" msprop:Generator_RowEvArgName="AttendenceRowChangeEvent" msprop:Generator_RowClassName="AttendenceRow">
+        <xs:element name="Attendence" msprop:Generator_TableClassName="AttendenceDataTable" msprop:Generator_TableVarName="tableAttendence" msprop:Generator_RowChangedName="AttendenceRowChanged" msprop:Generator_TablePropName="Attendence" msprop:Generator_RowDeletingName="AttendenceRowDeleting" msprop:Generator_RowChangingName="AttendenceRowChanging" msprop:Generator_RowEvHandlerName="AttendenceRowChangeEventHandler" msprop:Generator_RowDeletedName="AttendenceRowDeleted" msprop:Generator_RowClassName="AttendenceRow" msprop:Generator_UserTableName="Attendence" msprop:Generator_RowEvArgName="AttendenceRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
@@ -325,7 +352,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Courses" msprop:Generator_TableClassName="CoursesDataTable" msprop:Generator_TableVarName="tableCourses" msprop:Generator_TablePropName="Courses" msprop:Generator_RowDeletingName="CoursesRowDeleting" msprop:Generator_RowChangingName="CoursesRowChanging" msprop:Generator_RowEvHandlerName="CoursesRowChangeEventHandler" msprop:Generator_RowDeletedName="CoursesRowDeleted" msprop:Generator_UserTableName="Courses" msprop:Generator_RowChangedName="CoursesRowChanged" msprop:Generator_RowEvArgName="CoursesRowChangeEvent" msprop:Generator_RowClassName="CoursesRow">
+        <xs:element name="Courses" msprop:Generator_TableClassName="CoursesDataTable" msprop:Generator_TableVarName="tableCourses" msprop:Generator_RowChangedName="CoursesRowChanged" msprop:Generator_TablePropName="Courses" msprop:Generator_RowDeletingName="CoursesRowDeleting" msprop:Generator_RowChangingName="CoursesRowChanging" msprop:Generator_RowEvHandlerName="CoursesRowChangeEventHandler" msprop:Generator_RowDeletedName="CoursesRowDeleted" msprop:Generator_RowClassName="CoursesRow" msprop:Generator_UserTableName="Courses" msprop:Generator_RowEvArgName="CoursesRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
@@ -346,7 +373,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="students" msprop:Generator_TableClassName="studentsDataTable" msprop:Generator_TableVarName="tablestudents" msprop:Generator_TablePropName="students" msprop:Generator_RowDeletingName="studentsRowDeleting" msprop:Generator_RowChangingName="studentsRowChanging" msprop:Generator_RowEvHandlerName="studentsRowChangeEventHandler" msprop:Generator_RowDeletedName="studentsRowDeleted" msprop:Generator_UserTableName="students" msprop:Generator_RowChangedName="studentsRowChanged" msprop:Generator_RowEvArgName="studentsRowChangeEvent" msprop:Generator_RowClassName="studentsRow">
+        <xs:element name="students" msprop:Generator_TableClassName="studentsDataTable" msprop:Generator_TableVarName="tablestudents" msprop:Generator_RowChangedName="studentsRowChanged" msprop:Generator_TablePropName="students" msprop:Generator_RowDeletingName="studentsRowDeleting" msprop:Generator_RowChangingName="studentsRowChanging" msprop:Generator_RowEvHandlerName="studentsRowChangeEventHandler" msprop:Generator_RowDeletedName="studentsRowDeleted" msprop:Generator_RowClassName="studentsRow" msprop:Generator_UserTableName="students" msprop:Generator_RowEvArgName="studentsRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
@@ -388,7 +415,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="users" msprop:Generator_TableClassName="usersDataTable" msprop:Generator_TableVarName="tableusers" msprop:Generator_TablePropName="users" msprop:Generator_RowDeletingName="usersRowDeleting" msprop:Generator_RowChangingName="usersRowChanging" msprop:Generator_RowEvHandlerName="usersRowChangeEventHandler" msprop:Generator_RowDeletedName="usersRowDeleted" msprop:Generator_UserTableName="users" msprop:Generator_RowChangedName="usersRowChanged" msprop:Generator_RowEvArgName="usersRowChangeEvent" msprop:Generator_RowClassName="usersRow">
+        <xs:element name="users" msprop:Generator_TableClassName="usersDataTable" msprop:Generator_TableVarName="tableusers" msprop:Generator_RowChangedName="usersRowChanged" msprop:Generator_TablePropName="users" msprop:Generator_RowDeletingName="usersRowDeleting" msprop:Generator_RowChangingName="usersRowChanging" msprop:Generator_RowEvHandlerName="usersRowChangeEventHandler" msprop:Generator_RowDeletedName="usersRowDeleted" msprop:Generator_RowClassName="usersRow" msprop:Generator_UserTableName="users" msprop:Generator_RowEvArgName="usersRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />

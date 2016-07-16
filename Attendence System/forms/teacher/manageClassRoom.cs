@@ -42,10 +42,40 @@ namespace WindowsFormsApplication1
         private void manageClassRoom_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'attendenceSystemDataSet1.students' table. You can move, or remove it, as needed.
-            this.studentsTableAdapter.Fill(this.attendenceSystemDataSet1.students);
+            this.studentsTableAdapter.FillBy2(this.attendenceSystemDataSet1.students);
+            // TODO: This line of code loads data into the 'attendenceSystemDataSet1.students' table. You can move, or remove it, as needed.
+            //this.studentsTableAdapter.Fill(this.attendenceSystemDataSet1.students);
             // TODO: This line of code loads data into the 'attendenceSystemDataSet.Student' table. You can move, or remove it, as needed.
-          //  this.studentTableAdapter.Fill(this.attendenceSystemDataSet.Student);
+            //  this.studentTableAdapter.Fill(this.attendenceSystemDataSet.Student);
 
         }
+
+      
+
+        //private void fillByToolStripButton_Click(object sender, EventArgs e)
+        //{
+        //    try
+        //    {
+        //        this.studentsTableAdapter.FillBy(this.attendenceSystemDataSet1.students);
+        //    }
+        //    catch (System.Exception ex)
+        //    {
+        //        System.Windows.Forms.MessageBox.Show(ex.Message);
+        //    }
+
+        //}
+
+        //private void fillBy1ToolStripButton_Click(object sender, EventArgs e)
+        //{
+        //    try
+        //    {
+        //        this.studentsTableAdapter.FillBy1(this.attendenceSystemDataSet1.students);
+        //    }
+        //    catch (System.Exception ex)
+        //    {
+        //        System.Windows.Forms.MessageBox.Show(ex.Message);
+        //    }
+
+        //}
     }
 }
