@@ -58,6 +58,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AttendenceSystemDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="AttendenceSystemDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AttendenceSystemDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="forms\appAdmin\addHOD.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -188,6 +193,17 @@
     </None>
     <None Include="AttendenceSystemDataSet.xss">
       <DependentUpon>AttendenceSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AttendenceSystemDataSet1.xsc">
+      <DependentUpon>AttendenceSystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="AttendenceSystemDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AttendenceSystemDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AttendenceSystemDataSet1.xss">
+      <DependentUpon>AttendenceSystemDataSet1.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

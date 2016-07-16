@@ -38,5 +38,14 @@ namespace WindowsFormsApplication1
         {
 
         }
+
+        private void manageClassRoom_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'attendenceSystemDataSet1.students' table. You can move, or remove it, as needed.
+            this.studentsTableAdapter.Fill(this.attendenceSystemDataSet1.students);
+            // TODO: This line of code loads data into the 'attendenceSystemDataSet.Student' table. You can move, or remove it, as needed.
+          //  this.studentTableAdapter.Fill(this.attendenceSystemDataSet.Student);
+
+        }
     }
 }
